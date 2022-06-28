@@ -1,0 +1,51 @@
+name: quiz_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.0
+  flutter_screenutil: ^5.5.3+2
+  fluttertoast: ^8.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/fonts/oswald/
+    - assets/icons/
+    - assets/svg/
+
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/oswald/Oswald-Light.ttf
+          weight: 200
+        - asset: assets/fonts/oswald/Oswald-ExtraLight.ttf
+          weight: 300
+        - asset: assets/fonts/oswald/Oswald-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/oswald/Oswald-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/oswald/Oswald-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/oswald/Oswald-Bold.ttf
+          weight: 700
